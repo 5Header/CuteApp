@@ -9,7 +9,7 @@ app.MapGet("/", () =>
 {
     var name = Environment.GetEnvironmentVariable("CUTIE_NAME") ?? "AYAYA";
 
-    return $"Cute Chat: {name}\n";
+    return $"Cute 123 Chat: {name}\n";
 });
 
 app.Run();
