@@ -25,4 +25,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/wubbl0rz/CuteApp:${{github.ref_name}}
+          tags: ghcr.io/wubbl0rz/cuteapp:${{github.ref_name}}
